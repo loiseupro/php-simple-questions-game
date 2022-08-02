@@ -1,0 +1,52 @@
+body {
+    background-image: url(img/background_game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.the-header h1 {
+    font-family: "Games", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+#main {
+    background-color: #1e1d1dc4;
+    min-height: calc(100vmin - 20px);
+    color: white;
+}
+
+ul.list-answer {
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul.list-answer li.answer {
+    list-style: none;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: rgb(72, 37, 91);
+    background: linear-gradient(90deg, rgba(72, 37, 91, 1) 45%, rgba(109, 68, 131, 1) 100%);
+}
+
+.list-answer .answer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.panel-game {
+    border: 3px solid rgb(72, 37, 91);
+}
+
+.alert-success {
+    color: #fff;
+    background-color: #1e754e;
+    border-color: transparent;
+}
+
+.alert-danger {
+    color: #fff;
+    background-color: #842029;
+    border-color: transparent;
+}
